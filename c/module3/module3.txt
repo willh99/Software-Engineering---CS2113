@@ -1,0 +1,7 @@
+Answers to question in Module 3 for cs2113
+William Horowitz
+
+Exercise 3.1
+Yes, two pointer can point to the same thing (as demonstrated by intPtr and intPtr2 pointing to the variable i.
+
+

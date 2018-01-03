@@ -1,0 +1,10 @@
+Results for ex1 for cs2113
+By William Horowitz
+
+*Shared-birthday probability for M=10: 0.114900 or 11.4900% chance
+
+*Least value of M for which shared-birthday probability is larger than 0.5: M=24 people
+
+*Consecutive-birthday probability for M=10 and K=3: 0.004900 or 0.4900% chance
+
+*Least value M for which K=3 consecutive-birthdays probabiltiy is greater than 0.5: M=51

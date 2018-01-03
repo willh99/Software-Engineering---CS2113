@@ -1,0 +1,7 @@
+William Horowitz
+cs2113
+
+Answers to the questions associated with module1
+
+Exercise 1.2
+    When attempting to compile the commented program using the c89 standard, the command line states that there is an error after the '/' token. When compiling in the c99 standard, however, no such error is shown. This is because comments using '//' were not included in the C compiler in the c89 version, but they are included in the c99 compiler.

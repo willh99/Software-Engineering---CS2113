@@ -1,0 +1,37 @@
+Answers to exercise for C module4 in cs2113
+William Horowitz
+
+Exercise 4.1
+see ex4_1.c
+
+Exercise 4.2
+In the first swap.c, the values of i and j are changed because you
+pass a pointer to the function swap(). However, in swap2.c, the values i and j
+are not swapped because you do not pass a pointer. Not passing a pointer means
+that the variable that are change are only inside the function and do not
+affect the values in main.
+
+see swap.c and swap2.c for the code
+
+Exercise 4.3
+The printed values of e are 2 and 4.
+
+Exercise 4.4
+argv is declared as a char doulbe pointer because it allows for the creation
+of a dynamically allocated 2D char array. In this array, each char* points to
+a char[] which contains a word. This allows for the acceptance of multiple
+arguments.
+
+see commandline.c for the code.
+command.txt can be used as the first arg to be copied.
+
+Exercise 4.5
+The printed result show the address of fInfoPtr and the temperature value
+inside of fInfoPtr. The reason that the proper temperature value is printed is
+because the dPtr points to the address of the double value inside of the
+struct of type forecastInfo. The double is also the first value held within a
+struct of type forecastInfo. If the sturct did not have the first element as a
+double, then this pointer would not work properly.
+
+Exercise 4.6
+see doublylinked.c and/or run doublylinked

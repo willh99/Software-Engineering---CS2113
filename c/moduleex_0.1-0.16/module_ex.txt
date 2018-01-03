@@ -1,0 +1,51 @@
+Answers to module exercises 0.1-0.16
+cs2113
+William Horowitz
+
+Ex 0.1
+This program will not compile because 'Comment 3' is not in line with the inline comment above it. The compiler will therefore not know to treat it as a comment. The error says that the variable 'Comment has not been declared.
+
+Ex 0.2
+Yes, the comment is allowd between the paramet brackets since the second bracket is on a new line.
+
+Ex 0.3
+The error produced by compiling this program is that it says there is an undefined reference to 'main'.
+
+Ex 0.4
+Spelling 'printf' 'Printf' results in the error 'undefined refernce to 'Printf' since this is not a function in the stdio library.
+
+Ex 0.5
+The error returned by this program is that it 'expected declaration specifiers or '...' before '{' token.
+
+Ex 0.7
+The errors produced by compiling this program include "missing terminating " character", "expected expression before '}' token", and "expected ';' before '}' token
+
+Ex 0.8
+The error produced by this program is "expected ';' before '}' token
+
+Ex 0.9
+This program produces the error "expected declaration or statment at end of input
+
+Ex 0.10
+This program works if you include the stdio.h header file at the beginning of the program.
+
+Ex 0.11
+Compiling this program results in the following errors:
+	error: 'i' undeclared (first use in this function)
+	error: (Each undeclared identifier is repored only once
+	error: for each function it appears in.)
+
+Ex 0.12
+Compiling this program result in the error: expcted expression before '=' token
+
+Ex 0.13
+This program prints the number 3.0000. This is because it is first cast to an integer and then cast to a double.
+
+Ex 0.14
+The program prints out: 1 0 1 1 0 0 0 0 % followed by a new line
+
+Ex 0.15
+The problem with this program is that i it says i = 5, meaning set i to 5, not wee if i equals 5. Therefore, since i can always be set to five, it will always trigger, no matter the value of i.
+
+Ex 0.16
+The problem with is code is that there are no '{' around the while loop. Therefore, i--; will be treated by the compiler as being outside the while loop and will never be triggered. 

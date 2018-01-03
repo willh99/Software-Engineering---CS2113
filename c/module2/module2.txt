@@ -1,0 +1,12 @@
+William Horowitz
+cs2113
+
+Answers to the questions associated with module2
+
+Exercise 2.2
+    When mistakenly using %d for all the integers instead of their corresponding data types, the largest number was changed to another, negative number. This is because an unsigned long long int far exceeds the range that an integer can represent. Also, since it is unsigned, the most significant bit is not used as a sign bit. However, where using %d, the C compiler truncates longer number and uses the most significant bit is a sign bit, resulting in a negative number for such a large integer
+
+Exercise 2.3
+    Using %d for a floating point number results in an integer turned out by
+the compiler instead of the proper floating point number. Using %f instead of
+%lf did not result in a change of the output from the double variable.

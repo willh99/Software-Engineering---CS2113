@@ -1,0 +1,9 @@
+Answers to question for C exercises 0.17 and 0.18
+cs2113
+William Horowitz
+
+Exercise 0.17
+If the squareIt function follows main, then the compiler returns an error stating that there is an implicite declaration of a function squareIt. Howevr, this is not the case for all the C compilers as the default gcc setting did not return this error.
+
+Exercise 0.18
+Yes, on all three compilers (c89, c99, and the default) the program compiled despite the unused variable
