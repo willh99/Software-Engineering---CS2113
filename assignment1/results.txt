@@ -1,0 +1,45 @@
+Results and Deliverables for Assignment 1 for cs2113
+William Horowitz
+
+Average Number of Type-1 clusters (given only Type-1 clusers burn, M=5, fillDensity=0.7): 4.0
+
+
+Average Number of Trees burnt given for 1000 trials (Type1 Density= 0.4):
+
+	M=4, fillDensity=0.1 -	numType1Burned = 0.185
+			     	numType2Burned = 0.260
+
+	M=4, fillDensity=0.3 -	numType1Burned = 0.689
+			     	numType2Burned = 0.709
+
+	M=4, fillDensity=0.5 -	numType1Burned = 1.481
+			     	numType2Burned = 1.291
+
+	M=4, fillDensity=0.7 -	numType1Burned = 2.467
+			     	numType2Burned = 1.914
+
+	M=4, fillDensity=0.9 -	numType1Burned = 4.127
+			     	numType2Burned = 3.024
+
+
+	M=8, fillDensity=0.1 -	numType1Burned = 0.375
+			     	numType2Burned = 0.45
+
+	M=8, fillDensity=0.3 -	numType1Burned = 1.415
+			     	numType2Burned = 1.444
+
+	M=8, fillDensity=0.5 -	numType1Burned = 3.007
+			     -	numType2Burned = 2.595
+
+	M=8, fillDensity=0.7 -	numType1Burned = 5.663
+			     	numType2Burned = 4.092
+
+	M=8, fillDensity=0.9 -	numType1Burned = 10.27
+			     	numType2Burned = 6.651
+
+Q: What did you do to ensure that your code is working correctly?
+
+A: Several things were needed to ensure that the code worked correctly. First,
+multiple print statements were added to the while-loop in the simulateForest() method. This allowed monitoring of the 'forest' every time it was updated. This helped me find out that an additional update was needed after the while-loop in order to account for the longer burn times of type-2 trees. Another helpful addition was the use of characters to show which trees where buringing the toString() methods for each tree. Being able to track the progress of the forest and compare the image to the numeric result gave me confidence that the code was working properly.
+
+To see evidence of forethought given to this assignment, see evidence.jpg in the same directory as this file.

@@ -1,0 +1,8 @@
+Answers to qustions in Java module1.
+cs2113
+William Horowitz
+
+Exercise 1.2
+i is a variable that is added to the string printed by the System.out object
+
+
