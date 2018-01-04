@@ -1,0 +1,32 @@
+Answers to exercises in module9B for cs2113
+William Horowitz
+
+Exercise 9.1
+see ex1.java
+
+Exercise 9.2
+see ex2.java
+
+Exercise 9.3
+see ex3.java
+
+Exercise 9.4
+see ex4.java
+
+Exercise 9.5
+see ex5.java
+
+Exercise 9.6
+see ex6.java
+
+Exercise 9.7
+see ex7.java
+
+Exercise 9.8
+When using BorderLayout instead of FlowLayout, the orange button disappears and the green button takes up the entire top of the window.
+
+Exercise 9.9
+see compiled version of missile.java
+
+Exercise 9.10
+Having Graphics2D attached to the default paintComponent() allows for the functionality of both, thus allowing backwards compatability

@@ -1,0 +1,36 @@
+Answers to Exercies for module11 in cs2113
+By William Horowitz
+
+Exercise 11.1
+Components in the GUI:
+	-JPanel
+	-JLabel
+	-JButton
+	-JTextField
+	-JCheckBox
+	-JRadioButton ==> Button Group
+	-JList
+
+Exercise 11.2
+see Survey0.java
+
+Exercise 11.3
+see ex3.java
+
+Exercise 11.4
+Form.java creates a .txt with the following format:
+#Member information
+#Sun Nov 12 17:23:27 EST 2017
+address=601 house st
+networth=3
+lastname=lastname
+firstname=firstname
+
+Exercise 11.5
+see ex5.java
+
+Exercise 11.6
+see ex5.java
+
+Exercise 11.7
+see ex7.java
