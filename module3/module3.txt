@@ -1,8 +1,0 @@
-Answers to Exercies in java module3 for cs2112
-William Horowitz
-
-Exercise 3.1
-see UniformRandom2.java
-
-Exercise 3.2
-It makes sense to bar the use of the same name for methods returning different values because it is impossible for the compiler to tell which method is being called.

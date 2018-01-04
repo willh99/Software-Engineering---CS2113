@@ -1,9 +1,0 @@
-Answers to question associated with module2
-cs2113
-William Horowitz
-
-Exercise 2.1
-If you do not have a main function in your file it will still compile. However, when you try to execute the file you get an error telling you that main was not found and is require for the execution of the program.
-
-Exercise 2.2
-If you try to use an assignment in an if-expression, then the compiler gives you an error saying: imcompatible types: int cannot be converted to boolean
