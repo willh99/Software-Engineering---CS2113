@@ -1,0 +1,36 @@
+Answers to exercise in module12 for cs2113
+By William Horowitz
+
+Exercise 12.1
+
+
+Exercise 12.2
+When the race is running, all other fuctionality in the program seems to freeze up. The quit button does not respond until the race has concluded.
+
+Sleep skips execution in the program by disengaging the program.
+
+Exercise 12.3
+see Race1.java
+
+Exercise 12.4
+see Race2.java
+
+Exercise 12.5
+Calling raceFinished(true) sets the raceOver variable in the frame to true and returns the value true. This allows the while loop to break and ends the race for all of the dogs. Calling raceFinished(false) returns the value of raceOver, which will initially be false.
+
+Exercise 12.6
+The problem seems to be that even though one dog finishes the race, the value of of raceOver is not updated from the perspective of the other dog. There is therefore a concurrency problem between the threads.
+
+Exercise 12.7
+Since the variable raceOver is static, and it has to be to remain persistent amoung instances, removing the static declaration from the raceFinished() method means that it no longer changes the static version of raceOver and, thus, does not update the value for both threads.
+
+Exercise 12.8
+Piority does not mean that the second dog will always win. The random nature of the sleep time means that the first dog can catch up and win.
+
+Exercise 12.9
+Race9.java eventually locks. One of the threads is waiting on the value other (271) while the other is holding it. The other thread can't notify the first thread until the notify condition is met, but this never happens. Therefore, the program cannot advance any further, it is in deadlock. 
+
+Exercise 12.10
+It took roughly 30 seconds after hiting task-2 to be able to click on task-1 in SwingThread.java.
+
+It was more or less instantaneous to click on task-1 after task-2 in SwingThread2.java
