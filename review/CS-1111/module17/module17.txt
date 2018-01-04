@@ -1,0 +1,9 @@
+Answers to exercises in module17 for CS-1111
+cs2113
+William Horowitz
+
+Exercise 2
+see ScopeExample.java
+
+Exercise 4
+The value 2 gets printed out repeatedly because m is set to 1 every loop, then incremented before being printed.

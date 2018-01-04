@@ -1,0 +1,12 @@
+Answers to exercises in module9 of CS-1111
+cs2113
+William Horowitz
+
+Exercise 6
+sqrt(6s) for n = 5 is 2.9226. This series seems to converge somewhere around 1.6
+
+Exercise 12
+The second example does not work because the for-loop increases the value of i as it iterates, but the assignmet of A[i] is for the element i-1. Therefore, you are assigning the value of the first element to each element in the array except for elment 0, which is set outside of the for-loop
+
+Exercise 15
+The program prints the contents of B, which is {1, 4, 9, 16, 25}

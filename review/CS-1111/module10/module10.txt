@@ -1,0 +1,30 @@
+Answers to question in module10 for CS-1111
+cs2113
+William Horowitz
+
+Exercise 5
+See SmallestofThree.java
+
+Exercise 13
+see ex13.java
+
+Exercise 14
+Since max is initialized to 0, an array of all negative numbers would fail to fined the maximum number. To solve this, one could simply initialize max to the first value in the array.
+
+Exercise 15
+This program has the same problem for max, it will not find the maximum for an array of all negative values. It will also not find a minimum for an array of values greater than 0. Both max and min should be initialized to the value of the first element in the array.
+
+Exercise 16
+This program works for the current array, but it does not work if the first element is -50. This is because -50 would be the minimum value of the array, but it would not be set to the minimum since it would be larger than the initial value of max.
+
+Exercise 19
+see CopyMultiples.java
+
+Exercise 31
+The program would print out 50, since there are 50 odd numbers from 0 to 100
+
+Exercise 32
+An array of size n+1 is created because the loop that initialized the values in the array begins at 1 and counts up to 100. Therefore, elements 1-100 will be filled. Creating an array of size n would only allow for up to element 99. The 2nd and third loops begin at 3 since 1 and 2 are prime numbers.
+
+Exercise 42
+The program will print false because even though it will find the matching value, the loop will continue on and overwrite 'found' to be false. To fix this problem, simply remove the else-statement.

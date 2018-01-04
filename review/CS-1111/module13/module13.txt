@@ -1,0 +1,12 @@
+Answers to the exercises in module13 of CS-1111
+cs2113
+William Horowitz
+
+Exercise 4
+array index 3 corresponds to the blank space
+
+Exercise 6
+see CharCount.java
+
+Exercise 22
+see Rythem.java

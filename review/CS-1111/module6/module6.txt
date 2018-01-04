@@ -1,0 +1,22 @@
+Answers to exercises associated with module6 in CS-1111
+cs2113
+William Horowitz
+
+Exercise 4
+This program (VariableExample.java) will output the value 5 to the terminal.
+
+Exercise 5
+This program (VariableExample.java) will output the value 5 to the terminal
+
+Exercise 6
+The compiler gives 2 erros with this program. Both variables j and k have the error "cannot find the symbol"
+
+Exercise 8
+The program UnaryExample.java prints the value 3
+
+Exercise 15
+values of q:  0, 1, 1, 2, 3, 5,  8,  13, 21
+values of p:  1, 1, 2, 3, 5, 8,  13, 21, 34
+values of f:  1, 2, 3, 5, 8, 13, 21, 34,
+
+

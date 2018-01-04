@@ -1,0 +1,29 @@
+Answers to questions in module15 of CS-1111
+cs2113
+William Horowitz
+
+Exercise 7
+int a=0;
+for(int i=0; i<1000; i++){
+  if(i*i < 1000)
+    a=i;
+}
+System.out.println(a*a);
+
+Exercise 13
+
+String digits = "";
+for(int k=123456789; k>0; k = k/10){
+  k = k%10;
+  digits = k+digits;
+}
+System.out.println(digits);
+
+Exercise 15
+This doesn't work because the String is treated as and array and you can't have a negative numbered element in an array.
+
+Exercise 16
+Yes, since zero is a valid index, change position to zero will work.
+
+Exercise 18
+No, this will lead to an error because i will continue to increase until it is out of bounds of the array.

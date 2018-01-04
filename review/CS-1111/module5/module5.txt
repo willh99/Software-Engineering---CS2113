@@ -1,0 +1,8 @@
+Answers to select exercises for cs-1111 module5
+cs2113
+William Horowitz
+
+Exercise 5
+Yes, you can set up a for-loop so that it only triggers and event once. You could even have it trigger zero times.
+
+ 

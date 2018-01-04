@@ -1,0 +1,27 @@
+Answers to question in module12 of CS-1111
+cs2113
+William Horowitz
+
+Exercise 3
+see MethodExample.java
+
+Exercise 4
+see PrintStarsExercise.java
+
+Exercise 5
+see PrintSmallestExercise.java
+
+Exercise 6
+see FindSmallestExercise.java
+
+Exercise 7
+power will be called in the order in which it appears in the code
+
+Exercise 10
+This program print "1, 2, 3, 4, 5" and then prints "1, 2, 3"
+
+Exercise 12
+The second return is never executed in this program since there is a negative element in the array.
+
+Exercise 14
+see ex14.java
