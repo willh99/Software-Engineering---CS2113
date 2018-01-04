@@ -1,0 +1,9 @@
+Answers to exercises for module4 in CS-1112
+cs2113
+William Horowitz
+
+Exercise 2
+see Sum.java
+
+Exercise 7
+see Palindrome2.java

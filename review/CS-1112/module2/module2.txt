@@ -1,0 +1,12 @@
+Answers to exercise in module2 for CS-1112
+cs2113
+William Horowitz
+
+Exercise 1
+see MagicSquare.java
+
+Exercise 2
+see PointerCopyProblem.java
+
+Exercise 8
+see ArrayCopy.java
